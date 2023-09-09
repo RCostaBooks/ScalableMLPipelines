@@ -1,5 +1,5 @@
 from kedro.pipeline import Pipeline, pipeline, node
-from .nodes import 
+from .nodes import ingestDocuments
 
 def create_pipeline(**kwargs) -> Pipeline:
   return pipeline(
